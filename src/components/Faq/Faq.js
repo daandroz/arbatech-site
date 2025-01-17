@@ -59,6 +59,8 @@ const Faq = () => {
         </div>
       </div>
       <div className="spline-wrapper-faq">
+      <div className='tapon'></div>
+
       {isVisible && (
 
         <Spline scene="https://prod.spline.design/4RCaBD7XR-5bC5w6/scene.splinecode" />

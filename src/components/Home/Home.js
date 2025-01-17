@@ -37,9 +37,10 @@ const Home = () => {
       
 
       <div className='spline-wrapper'>
+      // <div className='tapon'></div>
+
       {isVisible && (
 
-      // <div className='tapon'></div>
         <Spline scene="https://prod.spline.design/vzao8bpNVgS4crmv/scene.splinecode" />
 )}
 
