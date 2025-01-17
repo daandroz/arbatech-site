@@ -1,0 +1,82 @@
+
+.sponsors-banner {
+  position: relative;
+  background-color: var(--main-bg-color); 
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+  overflow: hidden; 
+  background-image: linear-gradient(to top, #0f1117, var(--main-bg-color)); 
+}
+
+
+.text-container {
+  margin-bottom: 2rem;
+}
+
+.text-container h2 {
+  font-size: 2rem;
+  line-height: 1;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 100;
+  margin: 20px 20% 15px;
+}
+
+.text-container h3 {
+  font-size: 1rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  color: var(--secondary-color-lt-blue);
+}
+
+.text-container span {
+  color: var(--primary-color);
+}
+
+
+.logo-wrap {
+  display: flex;
+  gap: 4rem;
+  animation: move-logos 110s linear infinite; 
+  width: 100%; 
+}
+
+.integration-logo {
+  width: 150px; 
+  height: auto;
+  object-fit: contain;
+}
+
+
+@keyframes move-logos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
+
+
+@media (max-width: 768px) {
+  .sponsors-banner {
+    padding: 2rem 1rem;
+  }
+
+  .text-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .text-container h3 {
+    font-size: 0.9rem;
+  }
+
+  .integration-logo {
+    width: 100px;
+  }
+
+  .logo-wrap {
+    gap: 2rem;
+    animation: move-logos 30s linear infinite; 
+  }
+}

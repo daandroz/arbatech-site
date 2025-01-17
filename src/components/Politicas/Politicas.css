@@ -1,0 +1,25 @@
+.politicas {
+  padding-top: 100px;
+}
+
+.politicas h1 {
+  color: #91e6ff;
+  margin-bottom: 60px;
+}
+
+.politicas h2 {
+  border-bottom: 2px solid #91e6ff;
+  color: #91e6ff;
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+}
+
+.politicas section {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.politicas .footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+  text-align: center;
+}

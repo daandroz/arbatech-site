@@ -1,0 +1,134 @@
+.getstarted {
+  /* background-color: orange; */
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  height: 100vh;
+}
+
+.spline-wrapper {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100vh; 
+  z-index: 0; 
+}
+
+.spline-wrapper canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.getstarted-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  z-index: 1;
+  margin-left: 50%;
+  padding-top: 15%;
+  padding-bottom: 100px;
+  padding-right: 0%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+
+.getstarted-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background: linear-gradient(0deg,#000000c9 100%,#cccccc3a 100%); */
+  pointer-events: none;
+}
+
+.getstarted-header {
+  color: #f8f9fa!important;
+  font-size: clamp(2rem,4vw,6rem);
+  line-height: 0.99916667;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  font-family: 'Quicksand',sans-serif;
+  font-weight: 100;
+  text-align: right;
+}
+
+.getstarted-paragraph {
+  color: var(--secondary-color-lt-blue);
+  margin-bottom: 25px;
+  text-align: center;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.letstalk-button {
+  font-family: 'Quicksand';
+  color: black;
+  font-weight: 500;
+  background-color: var(--primary-color);
+  border-radius: 2.25rem;
+  padding: 1rem 1rem;
+  transition: background-color .3s cubic-bezier(.912, -.005, .006, .989);
+  text-decoration: none;
+  /* margin-left: clamp(1rem, -8.286rem + 24.762vw, 14rem); */
+  white-space: noWrap;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: clamp(10rem, 5.714rem + 11.429vw, 16rem);
+  pointer-events: auto;
+}
+
+
+.letstalk-button:hover {
+  color: #333;
+  background-color:var(--secondary-color-purple);
+}
+
+.highlighted-text {
+  font-weight: bold;
+  line-height: 1.1;
+  font-family: 'Quicksand';
+  color: var(--primary-color);
+}
+
+.contact-button{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  position: relative;
+  z-index: 1;
+  margin-left: 50%;
+  padding-top: 15%;
+  padding-bottom: 100px;
+  padding-right: 5%;
+  mix-blend-mode: difference;
+}
+
+@media (max-width: 768px) {
+  .getstarted-header {
+    width: 80vw;
+    text-align: center;  
+  }
+
+  .getstarted-paragraph {
+    text-align: center;  
+    white-space: nowrap; 
+  }
+
+  .getstarted-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    height: 100vh; 
+    padding-top: 0;
+    margin-left: 0; 
+  }
+}

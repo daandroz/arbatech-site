@@ -1,0 +1,41 @@
+.footer .logo {
+  width: 100%;  
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 50px;
+}
+
+.footer-paragraph p{
+  font-family: "Quicksand", sans-serif;
+  color: #e0e0e0;
+  margin-top: 1rem;
+  font-size: 15px;
+}
+
+.link-block {
+  transition: opacity 0.3s, color 0.3s;
+}
+
+.link-block:hover {
+  opacity: 0.8; 
+  color: #000; 
+}
+
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.icon-1x1-medium {
+  width: 2rem;
+  height: 2rem;
+  color: #596177;
+  margin-top: 1em;
+}
+
+#logo-footer { 
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+}

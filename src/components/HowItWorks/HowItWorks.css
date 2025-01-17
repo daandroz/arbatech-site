@@ -1,0 +1,38 @@
+.howitworks {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  margin-top: 100px; /* Si es necesario compensar navegación fija */
+  scroll-margin-top: 100px; /* Para asegurar el posicionamiento correcto */
+  overflow: hidden; /* Cambia a hidden solo si el contenido no necesita desplazarse */
+  display: flex; /* Para asegurar que el contenido interno se alinee correctamente */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+}
+
+.spline-wrapper-how-it-works {
+  width: 100%;
+  height: 100%; /* Asegúrate de que ocupe todo el espacio */
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+}
+
+.spline-wrapper-how-it-works canvas {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .spline-wrapper-how-it-works {
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+  }
+
+  .spline-wrapper-how-it-works canvas {
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,211 @@
+html, body {
+  font-family:'Quicksand', sans-serif;
+}
+
+.tapon{
+  background-color: #0F1118;
+  width: 160px;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.tapon-get-started{
+  background-color: black;
+  width: 160px;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  bottom: -24px;
+  z-index: 1;
+}
+
+
+.home {
+  /* background-image: url('/public/img/spline-bg.png'); */
+  background-size: cover;
+  height: 100vh;
+  padding-top: 7%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.spline-wrapper {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 99vw; 
+  height: 100vh; 
+  z-index: 0; 
+}
+
+.spline-wrapper canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.home-header {
+  margin-top: 0px;
+  margin-bottom: 0;
+  font-size: 4.5rem;
+  font-weight: 200;
+  line-height: 115%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.type-header {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 0;
+  font-size: 4.5rem;
+  line-height: 115%;
+}
+
+.home-buttons{
+  position: relative;
+  z-index: 3;
+}
+
+.home-header-span {
+  color: var(--primary-color);
+}
+
+.whatsapp-color {
+  background: -webkit-linear-gradient(#7ceca5, #25D366, #009929);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:'Quicksand', sans-serif;
+  font-weight: 200;
+}
+
+.facebook-color {
+  background: -webkit-linear-gradient(#99c5ff, #65a8ff, #0077b5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+}
+
+.instagram-color {
+  font-family:'Quicksand', sans-serif;
+  font-weight: 200;
+  background: -webkit-linear-gradient(#F58529,#FEDA77, #d8699b, #9968b5, #717be7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.type-header span {
+  font-family: 'Quicksand', sans-serif;
+  color: var(--primary-color);
+}
+
+.home-paragraph {
+  margin-bottom: 40px;
+  padding-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 200;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.work-with-us-button {
+   background: var(--primary-color);
+  color: #151515;
+  border-radius: 2.25rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  font-family: "Quicksand";
+  font-size: 1.25rem;
+  font-weight: 200!important;
+  position: relative;
+  z-index: 1;
+  transition: 0.05s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  overflow: hidden;
+  padding: 0.6rem 2rem;
+}
+
+.work-with-us-button::before {
+  border-radius: 1.25rem;
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 0%;
+  height: 100%;
+  background: #943dff;
+  z-index: -1;
+  transition: 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.work-with-us-button:hover::before {
+  width: 100%;
+  left: 0;
+  right: unset;
+    border-radius: 15px;
+
+}
+
+.work-with-us-button:hover {
+  color: white;
+  scale: 1.08;
+}
+
+.learn-more-button {
+  font-weight: 200;
+  font-family: "Quicksand",sans-serif;
+  font-size: 1.25rem;
+  background-color: var(--main-bg-color);
+  border-radius: 2.25rem;
+  padding: 0.6rem 1rem;
+  margin-left: 20px;
+  border: 1px solid #4a5283;
+  transition: background-color .3s cubic-bezier(.889, .013, .047, .995);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.learn-more-button:hover {
+  box-shadow: none;
+  color: white;
+  background-color: #333751;
+}
+
+.home-wrapper {
+  margin-bottom: 120px;
+}
+
+/* when screen is less than 768px */
+@media (max-width: 768px) {
+
+  .home{
+    padding-top: 50%;
+  }
+  .home-wrapper {
+    text-align: center;
+  }
+
+  .home-header {
+    font-size: 2.5rem;
+  }
+
+  .type-header {
+    font-size: 2.5rem;
+  }
+  .home-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0%;
+    column-gap: 10px;
+    row-gap: 20px;
+    margin: 0px 5%;
+  }
+
+  .learn-more-button{
+    margin-left: 0px;
+  }
+}
