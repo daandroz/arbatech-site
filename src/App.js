@@ -1,6 +1,11 @@
 import './App.css';
 import Main from './Main';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter } from "react-router-dom";
+
+<HashRouter>
+  <App />
+</HashRouter>
 
 function App() {
   return (
