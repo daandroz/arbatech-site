@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkcode_brewers=self.webpackChunkcode_brewers||[]).push([[925],{104:(e,o,a)=>{a.r(o),a.d(o,{default:()=>s});var r=a(184);const s=()=>(0,r.jsx)("section",{className:"footer container",children:(0,r.jsx)("a",{href:"/","aria-current":"page",className:"navbar-logo-wrap w-inline-block w--current",id:"logo-footer",children:(0,r.jsx)("img",{src:"/img/logos/logo.svg",className:"logo",loading:"lazy",alt:"Arbatech Solutions Logo",width:"300",height:"125"})})})}}]);
-//# sourceMappingURL=925.8261faa3.chunk.js.map
