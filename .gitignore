@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+website/public/.DS_Store
+website/public/img/.DS_Store.DS_Store
+.DS_Store
+package-lock.json
+yarn.lock
+.env
