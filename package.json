@@ -1,4 +1,5 @@
 {
+  "homepage": "https://daandroz.github.io/arbatech-site",
   "name": "code-brewers",
   "version": "0.1.0",
   "private": true,
@@ -35,6 +36,8 @@
   },
   "scripts": {
     "start": "concurrently \"npm run start-frontend\" \"npm run backend\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start-frontend": "react-scripts start",
     "backend": "node server.js",
     "build": "react-scripts build",
