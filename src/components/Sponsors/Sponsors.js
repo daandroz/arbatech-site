@@ -25,11 +25,11 @@ const Sponsors = () => {
   }, []);
 
   const logos = [
-    '/img/sponsors/acne-control.webp',
-    '/img/sponsors/lancaster.webp',
-    '/img/sponsors/capra-logo.webp',
-    '/img/sponsors/floreria.webp',
-    '/img/sponsors/dali-buns.webp',
+    `${process.env.PUBLIC_URL}/img/sponsors/acne-control.webp`,
+    `${process.env.PUBLIC_URL}/img/sponsors/lancaster.webp`,
+    `${process.env.PUBLIC_URL}/img/sponsors/capra-logo.webp`,
+    `${process.env.PUBLIC_URL}/img/sponsors/floreria.webp`,
+    `${process.env.PUBLIC_URL}/img/sponsors/dali-buns.webp`,
   ];
 
   return (

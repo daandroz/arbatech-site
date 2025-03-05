@@ -27,7 +27,7 @@ const Navbar = () => {
           className='navbar-logo-wrap w-inline-block w--current'
         >
           <img
-            src='/img/logos/logo.svg'
+            src={`${process.env.PUBLIC_URL}/img/logos/logo.png`}
             loading='lazy'
             alt='Arbatech Solutions Logo'
             width="120"
@@ -112,7 +112,7 @@ const Navbar = () => {
       <div className='mobile-menu'>
         <img
           className="menu-logo-mobile"
-          src='/img/logos/logo.svg'
+          src={`${process.env.PUBLIC_URL}/img/logos/logo.svg`}
           loading='lazy'
           alt='Arbatech Solutions Logo'
           width="120"

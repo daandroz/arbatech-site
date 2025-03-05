@@ -7,7 +7,8 @@ const AboutUs = () => {
     { text: "¡Bienvenido, soy tu asistente Lancaster! ¿En qué te pudiera ayudar? pregúntame lo que quieras.", sender: 'ai' },
   ]);
   const [inputValue, setInputValue] = useState('');
-  const chatEndRef = useRef(null); 
+  const chatEndRef = useRef(null);
+  const isFirstRender = useRef(true); // Evita el scroll en la carga inicial
 
   const handleSendMessage = async () => {
     if (inputValue.trim()) {
@@ -44,6 +45,11 @@ const AboutUs = () => {
   };
 
   useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+    
     if (chatEndRef.current) {
       chatEndRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
@@ -61,7 +67,7 @@ const AboutUs = () => {
       <div className="aboutus">
         <div className="about-us-info">
           <p className="headline">
-            <img src="/img/Sphere-aboutUs.svg" alt="sphere" width={20} />
+            <img src={`${process.env.PUBLIC_URL}/img/Sphere-aboutUs.svg`} alt="sphere" width={20} />
             Se siente real porque lo es.
           </p>
           <h2 className="about-us-header">

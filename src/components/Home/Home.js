@@ -37,7 +37,7 @@ const Home = () => {
       
 
       <div className='spline-wrapper'>
-      // <div className='tapon'></div>
+      <div className='tapon'></div>
 
       {isVisible && (
 

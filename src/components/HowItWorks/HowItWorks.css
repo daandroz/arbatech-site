@@ -1,4 +1,5 @@
 .howitworks {
+  display: none;
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -8,6 +9,7 @@
   display: flex; /* Para asegurar que el contenido interno se alinee correctamente */
   justify-content: center; /* Centra el contenido horizontalmente */
   align-items: center; /* Centra el contenido verticalmente */
+
 }
 
 .spline-wrapper-how-it-works {
