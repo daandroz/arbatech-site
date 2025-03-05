@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/arbatech-site/static/css/main.b0372894.css",
-    "main.js": "/arbatech-site/static/js/main.92338818.js",
+    "main.js": "/arbatech-site/static/js/main.cb2b62c5.js",
     "static/css/369.b0cfa4e5.chunk.css": "/arbatech-site/static/css/369.b0cfa4e5.chunk.css",
     "static/js/369.00fc292a.chunk.js": "/arbatech-site/static/js/369.00fc292a.chunk.js",
     "static/css/548.5d3e5621.chunk.css": "/arbatech-site/static/css/548.5d3e5621.chunk.css",
@@ -37,7 +37,7 @@
     "static/media/wrapper-4.svg": "/arbatech-site/static/media/wrapper-4.f64a5fefc9f89713f674.svg",
     "index.html": "/arbatech-site/index.html",
     "main.b0372894.css.map": "/arbatech-site/static/css/main.b0372894.css.map",
-    "main.92338818.js.map": "/arbatech-site/static/js/main.92338818.js.map",
+    "main.cb2b62c5.js.map": "/arbatech-site/static/js/main.cb2b62c5.js.map",
     "369.b0cfa4e5.chunk.css.map": "/arbatech-site/static/css/369.b0cfa4e5.chunk.css.map",
     "369.00fc292a.chunk.js.map": "/arbatech-site/static/js/369.00fc292a.chunk.js.map",
     "548.5d3e5621.chunk.css.map": "/arbatech-site/static/css/548.5d3e5621.chunk.css.map",
@@ -70,6 +70,6 @@
   },
   "entrypoints": [
     "static/css/main.b0372894.css",
-    "static/js/main.92338818.js"
+    "static/js/main.cb2b62c5.js"
   ]
 }
