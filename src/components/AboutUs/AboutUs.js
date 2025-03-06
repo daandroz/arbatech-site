@@ -115,7 +115,7 @@ const AboutUs = () => {
                 </div>
                 {message.sender === 'user' && (
                   <div className="chat-avatar user">
-                    <img src="/img/chat-avatar-user.svg" alt="User avatar" />
+                    <img src={`${process.env.PUBLIC_URL}/img/chat-avatar-user.svg`} alt="User avatar" />
                   </div>
                 )}
               </div>
