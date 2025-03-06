@@ -10,7 +10,7 @@ const Footer = () => {
         id="logo-footer"
       >
         <img
-          src='/img/logos/logo.svg'
+        src={`${process.env.PUBLIC_URL}/img/logos/logo.svg`}
           className="logo"
           loading='lazy'
           alt='Arbatech Solutions Logo'
@@ -23,3 +23,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+

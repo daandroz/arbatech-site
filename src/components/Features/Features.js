@@ -22,7 +22,7 @@ const Features = () => {
         <div className="feature-item">
           <img
             className="gen-icon"
-            src="/img/features-phone.svg"
+            src={`${process.env.PUBLIC_URL}/img/features-phone.svg`}
             alt="a-icon"
           />
           <span className="bullet-text">Llamadas por minuto.</span>
@@ -32,7 +32,7 @@ const Features = () => {
         <div className="feature-item">
           <img
             className="gen-icon"
-            src="/img/features-sms.svg"
+            src={`${process.env.PUBLIC_URL}/img/features-sms.svg`}
             alt="b-icon"
           />
           <span className="bullet-text">SMS con flash (tipo 0).</span>
@@ -42,7 +42,7 @@ const Features = () => {
         <div className="feature-item">
           <img
             className="gen-icon"
-            src="/img/features-blaster.svg"
+            src={`${process.env.PUBLIC_URL}/img/features-blaster.svg`}
             alt="c-icon"
           />
           <span className="bullet-text">Blaster.</span>
@@ -52,7 +52,7 @@ const Features = () => {
         <div className="feature-item">
           <img
             className="gen-icon"
-            src="/img/features-whatsapp.svg"
+            src={`${process.env.PUBLIC_URL}/img/features-whatsapp.svg`}
             alt="d-icon"
           />
           <span className="bullet-text">Whatsapp Masivo.</span>

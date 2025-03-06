@@ -96,7 +96,7 @@ const AboutUs = () => {
 
         <div className="chatbot-container chatbot-visible">
           <div className="chatbot-header">
-            <img src="/img/Sphere-aboutUs.svg" alt="sphere" width={20} />
+            <img src={`${process.env.PUBLIC_URL}/img/Sphere-aboutUs.svg`} alt="sphere" width={20} />
             Lancaster
           </div>
           <div className="chatbot-main">
@@ -107,7 +107,7 @@ const AboutUs = () => {
               >
                 {message.sender === 'ai' && (
                   <div className="chat-avatar ai">
-                    <img src="/img/Sphere-aboutUs.svg" alt="AI avatar" />
+                    <img src={`${process.env.PUBLIC_URL}/img/Sphere-aboutUs.svg`} alt="AI avatar" />
                   </div>
                 )}
                 <div className={`chat-message ${message.sender === 'user' ? 'user' : 'ai'}`}>

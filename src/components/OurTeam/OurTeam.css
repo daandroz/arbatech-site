@@ -82,6 +82,16 @@
   color: var(--primary-color);
 }
 
+.tapon{
+  background-color: #0F1118;
+  width: 160px;
+  height: 60px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+}
+
 .our-team-paragraph {
   margin-bottom: 10px;
   max-width: 90%;

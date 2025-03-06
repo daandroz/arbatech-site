@@ -32,15 +32,13 @@ const HowItWorks = () => {
   className='howitworks'
   ref={sectionRef}
   style={{
-    height: '100vh',
+    height: '0',
   }}
 >
   <div className='spline-wrapper-how-it-works'>
-"<div className='tapon'></div>
+    <div className='tapon'></div>
 
-    {isVisible && (
-      <Spline scene="https://prod.spline.design/9l2osYHbjLKxRfyC/scene.splinecode" />
-    )}
+   
   </div>
 </section>
     

@@ -49,7 +49,7 @@ const GetStarted = () => {
           alt='Contáctanos por Whatsapp'
         >
           Contáctanos
-          <img src='../img/line-arrow-right.svg' alt='arrow' width={32}></img>
+          <img src={`${process.env.PUBLIC_URL}/img/line-arrow-right.svg`} alt='arrow' width={32}></img>
         </a>
       </div>
     </section>

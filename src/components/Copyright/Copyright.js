@@ -35,21 +35,21 @@ const Copyright = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/img/whatsapp-icon.svg" alt="WhatsApp" className="icon" />
+          <img src={`${process.env.PUBLIC_URL}/img/whatsapp-icon.svg`} alt="WhatsApp" className="icon" />
         </a>
         <a
           href="https://www.instagram.com/arbatech?igsh=MXBieW03ejRtZDlhYg=="
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/img/instagram-icon.svg" alt="Instagram" className="icon" />
+          <img src={`${process.env.PUBLIC_URL}/img/instagram-icon.svg`} alt="Instagram" className="icon" />
         </a>
         <a
           href="https://www.linkedin.com/company/arbatech/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/img/linkedin-icon.svg" alt="LinkedIn" className="icon" />
+          <img src={`${process.env.PUBLIC_URL}/img/linkedin-icon.svg`} alt="LinkedIn" className="icon" />
         </a>
       </div>
     </section>

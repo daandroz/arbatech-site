@@ -160,8 +160,7 @@ export default function Pricing() {
             >
               Obtener este paquete
               <img
-                src="../img/line-arrow-right.svg"
-                alt="Arrow Right"
+src={`${process.env.PUBLIC_URL}/img/line-arrow-right.svg`}                alt="Arrow Right"
                 className="h-4 w-4"
               />
             </a>

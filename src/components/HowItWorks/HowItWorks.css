@@ -1,7 +1,7 @@
 .howitworks {
   display: none;
   width: 100vw;
-  height: 100vh;
+  height: 0;
   position: relative;
   margin-top: 100px; /* Si es necesario compensar navegación fija */
   scroll-margin-top: 100px; /* Para asegurar el posicionamiento correcto */
@@ -14,7 +14,7 @@
 
 .spline-wrapper-how-it-works {
   width: 100%;
-  height: 100%; /* Asegúrate de que ocupe todo el espacio */
+  height: 0; /* Asegúrate de que ocupe todo el espacio */
   display: flex;
   justify-content: center; /* Centra el contenido horizontalmente */
   align-items: center; /* Centra el contenido verticalmente */
